@@ -1,0 +1,31 @@
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(auto, 95%);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+  .form{
+    background-color: blueviolet;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 40%;
+  }
+  .form-show{
+    display: flex;
+  }
+
+  
+ 
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .main-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  

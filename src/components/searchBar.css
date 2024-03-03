@@ -1,0 +1,6 @@
+.searchbar-container{
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    justify-content: space-between;
+    }
